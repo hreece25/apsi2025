@@ -1,0 +1,34 @@
+/* ------Asimov Columsn------- */
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.text-container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1000px;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.column {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.indent-line {
+  display: block;      /* make the span behave like its own “paragraph” line */
+  margin-left: 1em;    /* indent by roughly three spaces */
+  text-indent: 0;      /* ensure no extra first‐line indent */
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vocabulary Grid</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 24px;
+      }
+
+      .container {
+        background-color: rgba(0, 0, 0, 0.7); /* black transparency */
+        width: 90%;
+        max-width: 1000px;
+        padding: 20px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        gap: 10px;
+      }
+
+      .cell {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        color: white;
+        min-height: 40px;
+      }
+
+      .cell ul {
+        list-style-type: none; /* Removes bullets */
+        padding-left: 0; /* Removes left indentation */
+        margin: 0;
+        color: white;
+        font-size: 14px;
+      }
+
+      .cell li {
+        margin-bottom: 10px;
+      }
+
+      .cell li:first-child {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      #general-term {
+        color: yellow;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vocabulary for Describing Language</h1>
+
+    <div class="container">
+      <!-- Generate 5 x 9 = 45 cells -->
+      <!-- You can fill them with content or keep them empty -->
+      <!-- Example just shows empty cells for structure -->
+      <div class="cell">
+        <div class="cell">
+          <ul>
+            <li>Positive Tone Words</li>
+            <li id="general-term">General</li>
+            <li>amiable</li>
+            <li>appreciative</li>
+            <li>authoritative</li>
+            <li>benevolent</li>
+            <li>brave</li>
+            <li>calm</li>
+            <li>cheerful</li>
+            <li>compassionate</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cell">
+        <ul>
+            <li>complimentary</li>
+            <li>amiable</li>
+            <li>appreciative</li>
+            <li>authoritative</li>
+            <li>benevolent</li>
+            <li>brave</li>
+            <li>calm</li>
+            <li>cheerful</li>
+            <li>compassionate</li>
+          </ul>
+      </div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Row 2 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Row 3 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Row 4 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Row 5 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Row 6 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Row 7 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Row 8 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Row 9 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+  </body>
+</html>
