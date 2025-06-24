@@ -6,13 +6,18 @@ body {
   font-family: Arial, sans-serif;
 }
 
+h1{
+  color:white;
+  margin-top: 100px;
+  margin-left: 475px;
+}
 .text-container {
   color: white;
   display: flex;
   justify-content: space-between;
   gap: 20px;
   max-width: 1000px;
-  margin-top: 200px;
+  margin-top: 10px;
   margin-left: 200px;
 }
 
@@ -21,9 +26,10 @@ body {
 }
 
 img {
-  width: 100%;
-  height: auto;
+  width: 300px !important;
+  height: 300px !important;
   display: block;
+  margin-left: 50px;
   margin-bottom: 10px;
 }
 
